@@ -8,6 +8,7 @@
     
     <title>landingPage - bootstrp 4.4</title>
     <style>
+     
         .background-header{
             background-image: url('/images/banner.jpg');
             background-color: #c2e9f3;
@@ -48,7 +49,7 @@
             height: 1px;
             position: relative;
             vertical-align: middle;
-            width: 50%;
+            width: 25%;
         }
         h2:before {
             right: 0.5em;
@@ -58,6 +59,21 @@
             left: 0.5em;
             margin-right: -50%;
         }
+
+        .button-sekunder {
+          background-color: transparent;
+          border-color: #dbdbdb;
+          color: #0b9b6b;
+      } 
+        .button-sekunder:hover {
+          background-color: #0b9b6b;
+          border-color: #dbdbdb;
+          color: #fff;
+      }
+
+      .cover {
+        background: no-repeat cover/center;
+      }
     </style>
  
 </head>
@@ -124,7 +140,7 @@
      <!-- section services -->
      <section id="services" class="container-fluid service-style">
         <div class="row text-center">
-            <div class="col-12 "><h2 class="display-4 pb-4">Mengapa Memilih Kami</h2></div>
+            <div class="col-12 "><h2 class="display-4 pb-4" style="margin-top: 4rem !important;">Mengapa Memilih Kami</h2></div>
 
             <div class="col-12 col-md-6 col-lg-3">
                 <span class="fa-stack fa-2x">
@@ -170,6 +186,128 @@
             </div>
         </div>
      </section>
+
+     <!-- section products -->
+     <section id="products" class="container">
+        <div class="row text-center">
+            <div class="col-12 pb-4">
+                <h2 class="display-4 text-center mb-4" style="margin-top: 4rem !important;">Products Kami</h2>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="/images/product1.jpg" class="card-img-top" alt="product1">
+                    <div class="card-body" style="min-height:250px">
+                        <div class="card-title"><h5>Aplikasi Android</h5></div>
+                        <div class="card-text">
+                            <p>Belajar membangun website toko online menggunakan Framework PHP CodeIgniter</p>
+                        </div>
+                        
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn button-sekunder">Lihat Detail & Harga »</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card ">
+                    <img src="/images/product1.jpg" class="card-img-top" alt="product1">
+                    <div class="card-body " style="min-height:250px">
+                        <div class="card-title"><h5>Membangun Website Toko Online berbasis CodeIgniter</h5></div>
+                        <div class="card-text">
+                            Bagaimana menyelesaikan program aplikasi berbasi lokasi untuk pencarian key ransomware
+                        </div>
+                        
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn button-sekunder">Lihat Detail & Harga »</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="/images/product1.jpg" class="card-img-top" alt="product1">
+                    <div class="card-body" style="min-height:250px">
+                        <div class="card-title"><h5>Membuat Sistem Informasi Perpustakaan Menggunakan Laravel 6</h5></div>
+                        <div class="card-text">
+                            <p>Belajar langkah demi langkah membangun sistem informasi perpustakaan dengan laravel 6</p>
+                        </div>
+                        
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn button-sekunder">Lihat Detail & Harga »</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- section abouts -->
+      <section id="about" class="bg-light">
+        <div class="container-fluid-nav">
+            <!-- <div style="padding-top: 7rem !important;" >TENTANG KAMI</div> -->
+            <h2 class="display-4 text-center mb-5" style="padding-top: 7rem !important;" >Tentang Kami</h2>
+            <div class="row no-gutters">
+                <div class="col-12 col-md-6" >
+                    <div style="padding: 25px;">
+                        <h3 class="display-5 mt-3 mb-3 text-center text-green">Perjalanan Bisnis Kami</h3>
+                        <p style="text-align: justify;">Tentang kami deskripsi ini adalah deskripsi tentang kamai
+                            Tentang kami deskripsi ini adalah deskripsi tentang kamai
+                            Tentang kami deskripsi ini adalah deskripsi tentang kamai
+                            Tentang kami deskripsi ini adalah deskripsi tentang kamai
+                            Tentang kami deskripsi ini adalah deskripsi tentang kamai
+                        </p>
+                        <div class="text-center col-12 pt-3">
+                            <a href="#" class="btn btn-lg btn-danger">Lihat selengkapnya...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="vh-100 cover" style="background-image: url('/images/banner2.jpg');" ></div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="vh-100 cover" style="background-image: url('/images/banner2.jpg');" ></div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div style="padding: 25px;">
+                        <h3 class="display-5 mt-3 mb-3 text-green text-center">Tim Kami</h3>
+                        <p style="text-align: justify;">
+                            ini keterangan yang menerangkan tim-tim kami yang kompeten.
+                            ini keterangan yang menerangkan tim-tim kami yang kompeten.
+                            ini keterangan yang menerangkan tim-tim kami yang kompeten.
+                            ini keterangan yang menerangkan tim-tim kami yang kompeten.
+                            ini keterangan yang menerangkan tim-tim kami yang kompeten.
+                            ini keterangan yang menerangkan tim-tim kami yang kompeten.
+                        </p>
+                        <div class="text-center col-12 pt-3">
+                            <a href="#" class="btn btn-danger btn-lg">Lihat Tim Kami...</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+                
+            </div>
+        </div>
+      </section>
+
+    <!-- section contact -->
+     <section id="contact" class="container-fluid text-center" style="background-color: #86f7f7; padding-top: 25px;">
+        <h2 class="display-4 pb-4" style="margin-top: 4rem !important;">Hubungi Kami</h2>
+        <p class="lead pb-3">kirim pesan untuk bergabung bersama kami</p>
+        <a href="#" class="btn btn-lg btn-success mb-5">WhatsApp Kami</a>
+     </section>
+
+     <!-- footer -->
+      <footer class="bg-dark">
+        <div class="col-lg-12" style="padding: 10px;">
+            <div style="text-align: center;">
+                <a href="#" class="text-light p-2" ><i class="fab fa-facebook"></i></a>
+                <a href="#" class="text-light p-d"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-light p-2"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p class="text-center text-secondary">Copyright $copy; 2024 | Sescomreload</p>
+        </div>
+      </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
